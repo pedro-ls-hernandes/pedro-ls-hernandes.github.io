@@ -31,7 +31,3 @@ jobs:
 
       - name: Deploy na Vercel
         run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
-
-        
-                                                              
-          echo test, and deploy your project.
